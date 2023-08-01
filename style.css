@@ -20,3 +20,16 @@ html {
   --container-color: #2d2e37;
   --text-color: #fcfeff;
 }
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
