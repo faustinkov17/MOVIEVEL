@@ -59,7 +59,7 @@ header {
   color: var(--text-color);
   font-weight: 600;
   text-transform: uppercase;
-  margin: 0 auto 0 0;
+  margin: 0 auto 0 0; /*space between logo and search box*/
 }
 .logo span {
   color: var(--main-color);
@@ -89,4 +89,15 @@ header {
   color: var(--text-color);
   background: transparent;
   font-size: 0.938rem;
+}
+/* User */
+.user {
+  display: flex;
+}
+.user-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 }
