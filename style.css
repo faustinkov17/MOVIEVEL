@@ -33,7 +33,7 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
-
+/* ------------------------ HEADER------------------------------- */
 header {
   position: fixed;
   top: 0;
@@ -73,10 +73,20 @@ header {
   padding: .5rem .9375rem;
   background: var(--container-color);
   border-radius: 4rem;
+  margin-right: 1rem ;
 }
 .search-box a{
   color: var(--text-color);
+  font-size: 1.1rem;
 }
 .search-box a .bx:hover {
   color: var(--main-color);
+}
+#search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: var(--text-color);
+  background: transparent;
+  font-size: 0.938rem;
 }
