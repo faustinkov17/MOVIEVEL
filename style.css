@@ -74,6 +74,9 @@ header {
   background: var(--container-color);
   border-radius: 4rem;
 }
-.search-box .fa-brands {
+.search-box a{
+  color: var(--text-color);
+}
+.search-box a .bx:hover {
   color: var(--main-color);
 }
