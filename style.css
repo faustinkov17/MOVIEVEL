@@ -255,3 +255,17 @@ header {
     font-size: 1.125rem !important;
     font-weight: 700;
  }
+
+ /* ------------------------------MOVIES SECTION----------------------------------- */
+.movies .heading {
+  padding: .625rem .875rem;
+}
+.movies-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(247px,1fr));
+  gap: 1.5rem;
+}
+.movies-content .movie-box:hover .movie-box-img  {
+  transform: scale(1.1);
+  transition: .5s;
+}
