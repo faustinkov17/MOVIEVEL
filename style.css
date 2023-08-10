@@ -287,3 +287,8 @@ header {
   background: var(--hover-color);
   transition: .3s all linear;
  }
+  /* ------------------------------COPYRIGHT----------------------------------- */
+.copyright {
+  text-align: center;
+  padding: 1.25rem;
+}
