@@ -269,3 +269,21 @@ header {
   transform: scale(1.1);
   transition: .5s;
 }
+ /* ------------------------------NEXT PAGE----------------------------------- */
+ .next-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+ }
+ .next-btn {
+  background: var(--main-color);
+  padding: .75rem 1.25rem;
+  color: var(--text-color);
+  font-weight: 500;
+  border-radius: 32px;
+ }
+ .next-btn:hover {
+  background: var(--hover-color);
+  transition: .3s all linear;
+ }
