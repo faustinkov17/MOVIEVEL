@@ -33,6 +33,9 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
+section {
+  padding: 3rem 0 2rem;
+}
 /* ------------------------ HEADER------------------------------- */
 header {
   position: fixed;
@@ -183,3 +186,72 @@ header {
   font-size: 1rem;
   font-weight: 400;
 }
+/* ------------------------------HEADING----------------------------------- */
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--container-color);
+  padding: .5rem .875rem;
+  border: .0625rem solid hsl(200 100% 99%/ 5%);
+  margin-bottom: 2rem;
+}
+.heading-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/* ------------------------------POPULAR CONTENT----------------------------------- */
+/* MOVIE BOX */
+.movie-box {
+  position: relative;
+  width: 100%;
+  height: 23.75rem;
+  overflow: hidden;
+}
+.movie-box-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.movie-box .box-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.775rem;
+  background: linear-gradient(8deg, 
+  hsl(240 17% 14% / 74%) 14%, 
+  hsl(240 17% 14% / 14%) 44%);
+  overflow: hidden;
+}
+.movie-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.play-btn {
+  position: absolute;
+  bottom: .8rem;
+  right: .8rem;
+}
+.movie-type {
+  font-size: .938rem;
+}
+/* Swiper btn */
+.swiper-btn {
+  display: flex;
+}
+.swiper-button-next,
+ .swiper-button-prev {
+  position: static !important;
+  margin: 0 0 0 .625rem !important;
+}
+.swiper-button-next::after,
+ .swiper-button-prev::after {
+    color: var(--text-color);
+    font-size: 1.125rem !important;
+    font-weight: 700;
+ }
