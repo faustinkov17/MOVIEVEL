@@ -38,3 +38,22 @@ var swiper = new Swiper(".popular-content", {
         },
     }
   });
+
+  // Show video
+
+  let playButton = document.querySelector(".play-movie");
+  let video = document.querySelector(".video-container");
+  let myVideo = document.querySelector("#myvideo");
+  let closeButton = document.querySelector(".close-video");
+
+  playButton.onclick = () =>{
+    video.classList.add("show-video");
+    // Autoplay after click
+    myVideo.play()
+  }
+  closeButton.onclick = () =>{
+    video.classList.remove("show-video");
+    // Auto pause after click
+    myVideo.pause()
+  }
+
