@@ -589,7 +589,7 @@ header {
     right: 2rem;
   }
 }
-/* @media (max-width:514px) {
+@media (max-width:514px) {
   .home {
     min-height: 380px;
   }
@@ -617,7 +617,7 @@ header {
   .cast-title {
     font-size: .9rem;
   }
-} */
+}
 /* @media (max-width:414px) {
   * {
     scroll-padding-top: 5rem;
