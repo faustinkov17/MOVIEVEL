@@ -618,7 +618,7 @@ header {
     font-size: .9rem;
   }
 }
-/* @media (max-width:414px) {
+@media (max-width:414px) {
   * {
     scroll-padding-top: 5rem;
   }
@@ -652,7 +652,7 @@ header {
   .tx {
     width: 310px;
   }
-} */
+}
 /* @media (max-width:408px) {
   * {
     scroll-padding-top: 5rem;
