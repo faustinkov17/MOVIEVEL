@@ -511,14 +511,14 @@ header {
     width: 95%;
   }
 }
-/* @media (max-width:991px) {
+@media (max-width:991px) {
   .movie-box {
     width: 300px;
   }
   .movies-content {
     grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
   }
-} */
+}
 /* @media (max-width:888px) {
   .nav {
     padding: 14px 0;
