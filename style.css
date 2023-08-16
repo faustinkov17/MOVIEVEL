@@ -653,7 +653,7 @@ header {
     width: 310px;
   }
 }
-/* @media (max-width:408px) {
+@media (max-width:408px) {
   * {
     scroll-padding-top: 5rem;
   }
@@ -687,7 +687,7 @@ header {
   .tx {
     width: 300px;
   }
-} */
+}
 /* SMALL DEVICES */
 /* @media (max-width:370px) {
   * {
