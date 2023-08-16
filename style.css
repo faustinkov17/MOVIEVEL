@@ -482,7 +482,7 @@ header {
   background: var(--hover-color);
 }
 /* ------------------------------RESPONSIVE----------------------------------- */
-/* @media (max-width:1170px) {
+@media (max-width:1170px) {
   .navbar {
     bottom: 0;
     left: 0;
@@ -504,7 +504,7 @@ header {
   .copyright {
     margin-bottom: 4rem;
   }
-} */
+}
 /* @media (max-width:1060px) {
   .container {
     margin: 0 auto;
