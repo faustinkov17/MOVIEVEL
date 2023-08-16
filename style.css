@@ -726,7 +726,7 @@ header {
     
   }
 }
-/* @media (max-width:270px) {
+@media (max-width:270px) {
   * {
     scroll-padding-top: 5rem;
   }
@@ -762,4 +762,4 @@ header {
     width: 280px;
     
   }
-} */
+}
