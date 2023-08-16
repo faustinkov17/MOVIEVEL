@@ -519,7 +519,7 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
   }
 }
-/* @media (max-width:888px) {
+@media (max-width:888px) {
   .nav {
     padding: 14px 0;
   }
@@ -551,7 +551,7 @@ header {
  .cast {
   justify-content: center;
  }
-} */
+}
 /* FOR MEDIUM DEVICES  / TABLETS ETC */
 /* @media (max-width:768px) {
   .nav {
