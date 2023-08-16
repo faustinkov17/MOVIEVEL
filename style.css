@@ -553,7 +553,7 @@ header {
  }
 }
 /* FOR MEDIUM DEVICES  / TABLETS ETC */
-/* @media (max-width:768px) {
+@media (max-width:768px) {
   .nav {
     padding: 11px 0;
   }
@@ -588,7 +588,7 @@ header {
     bottom: 10rem;
     right: 2rem;
   }
-} */
+}
 /* @media (max-width:514px) {
   .home {
     min-height: 380px;
